@@ -1,34 +1,34 @@
 #
- # Download and place this file into your git repository.
- # Rename it to '.gitignore' (without quotes)
- #
- # wget http://www.phys.uconn.edu/phys2200/downloads/gitignore.sample
- # mv gitignore.sample .gitignore
- #
- # or
- #
- # wget http://www.phys.uconn.edu/phys2200/downloads/gitignore.sample -O .gitignore
- #
+# Download and place this file into your git repository.
+# Rename it to '.gitignore' (without quotes)
+#
+# wget http://www.phys.uconn.edu/phys2200/downloads/gitignore.sample
+# mv gitignore.sample .gitignore
+#
+# or
+#
+# wget http://www.phys.uconn.edu/phys2200/downloads/gitignore.sample -O .gitignore
+#
 
- # Ignore all
- *
+# Ignore all
+*
 
- # Unignore files with extensions .c and .h
- !*.c
- !*.h
+# Unignore files with extensions .c and .h
+!*.c
+!*.h
 
- # Unignore all dirs
- # !*/
+# Unignore all dirs
+# !*/
 
- # Unignore makefiles
- !Makefile
- !makefile
+# Unignore makefiles
+!Makefile
+!makefile
 
- # Unignore .gitignore
- !.gitignore
+# Unignore .gitignore
+!.gitignore
 
- # Unignore .indent.pro
- !.indent.pro
+# Unignore .indent.pro
+!.indent.pro
 
- # Unignore markdown files
- !*.md
+# Unignore markdown files
+!*.md
