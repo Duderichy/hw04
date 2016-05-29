@@ -2,5 +2,5 @@
 
 #test1
 
-target: area.c
+all: area.c
 	gcc -o area  area.c
